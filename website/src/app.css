@@ -1,0 +1,18 @@
+* {
+    font-family: 'Monaco', 'Arial';
+}
+
+body {
+    margin: 0;
+    padding: 2rem;
+    color: #ffffff;
+
+    
+
+    background: rgb(75,73,131);
+    background: linear-gradient(300deg, rgba(75,73,131,1) 0%, rgba(53,51,91,1) 33%, rgba(38,37,65,1) 65%, rgba(15,15,26,1) 100%);
+}
+
+hr {
+    color: #ffffff;
+}

@@ -1,0 +1,9 @@
+<script lang="ts">
+    import { browser } from "$app/environment";
+
+    if (browser) {
+        window.location.href = "/home";
+    }
+</script>
+
+<h1>Redirecting you...</h1>
