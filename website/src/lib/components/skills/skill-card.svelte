@@ -21,8 +21,8 @@
         background-color: #ffffff;
         color: rgba(15, 15, 26, 1);
         padding: 2rem;
-        width: 15rem;
-        height: 25rem;
+        width: min(50vw, 15rem);
+        height: min(40vh, 25rem);
         border-top-right-radius: 1.5rem;
         border-bottom-left-radius: 1.5rem;
         border-top-left-radius: 4.5rem;
@@ -69,7 +69,7 @@
     }
 
     .SkillCardContainer h2 {
-        font-size: 1.2rem;
+        font-size: clamp(0.8rem, 2vw, 1.2rem);
     }
 
     .SkillCardContainer h3 {
@@ -79,7 +79,7 @@
     }
 
     .SkillCardContainer:hover > h2 {
-        filter: blur(1.5px);
+        filter: blur(0.25rem);
         opacity: 0.5;
         transition-duration: 250ms;
         transition-timing-function: ease-in-out;
@@ -103,6 +103,14 @@
         padding: 2rem;
         transition-delay: 100ms;
         transition-timing-function: ease-in-out;
+    }
+
+    .DescriptionContainer > p {
+        font-size: clamp(0.7rem, 1vw, 1rem);
+    }
+
+    .DescriptionContainer > h3 {
+        font-size: clamp(0.8rem, 1vw, 1rem);
     }
 
     .SkillCardContainer:hover > .DescriptionContainer {

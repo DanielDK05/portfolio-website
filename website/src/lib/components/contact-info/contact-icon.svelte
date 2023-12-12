@@ -28,7 +28,7 @@
 <style>
     /* The filters are a hacky way of recoloring the SVG */
     :global(.SvgIcon) {
-        width: 12rem;
+        width: clamp(6rem, 10vw, 12rem);
         transition: 0.2s filter ease-in-out;
         filter: invert(99%) sepia(95%) saturate(23%) hue-rotate(279deg)
             brightness(104%) contrast(100%); /* #ffffff */

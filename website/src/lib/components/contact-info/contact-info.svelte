@@ -58,4 +58,10 @@
         color: #ffffff;
         opacity: 0.75;
     }
+
+    @media (max-width: 500px) {
+        #ContactInfoContainer ul {
+            flex-direction: column;
+        }
+    }
 </style>

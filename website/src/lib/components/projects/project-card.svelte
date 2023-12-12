@@ -32,16 +32,20 @@
         position: relative;
         background-size: 0 0; /* Image should not be drawn here */
 
-        color: #ffffff;
-        border: #ffffff solid 0.4rem;
-        text-align: center;
-        width: 30rem;
-        height: 20rem;
-        padding: 1.5rem;
-
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr;
+
+        color: #ffffff;
+        border: #ffffff solid min(1.5vw, 0.4rem);
+        text-align: center;
+        /* width: min(60vw, 30rem);
+        height: min(20vh, 20rem);
+        padding: min(1.5rem, 3vw); */
+        width: min(60vw, 30rem);
+        height: fit-content;
+        padding: 1.5rem;
+        font-size: clamp(0.5rem, 1vw, 1rem);
     }
 
     .ProjectCard::before {
@@ -49,7 +53,7 @@
         z-index: -1; /* Important */
         position: absolute;
         width: inherit;
-        height: inherit;
+        height: 100%;
         padding: inherit;
         background-image: inherit;
         background-size: cover;
@@ -60,6 +64,7 @@
         margin: 0;
         margin-bottom: 1rem;
         grid-column: 1 / span 2;
+        font-size: clamp(1rem, 2vw, 2rem);
     }
 
     .ProjectCard > span {
@@ -93,7 +98,12 @@
         text-align: left;
     }
 
+    .Concepts > h3 {
+        font-size: clamp(0.7rem, 1vw, 2rem);
+    }
+
     .Concepts > ul {
-        list-style: square;
+        list-style: none;
+        padding: 0;
     }
 </style>
