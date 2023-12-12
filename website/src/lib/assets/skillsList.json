@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Rust",
+        "category": "Programming Language",
+        "description": "I tried out rust when I heard it was the \"Most Loved\" language. After trying it out, I have never regretted learning it. Its design patterns, strict compiler, and safety have improved me as a developer, and given me new insight on what good code is. Rust is currently my favorite programming language!",
+        "years": "About 1 year",
+        "lastUsed": "Recently"
+    },
+    {
+        "title": "Kotlin",
+        "category": "Programming Language",
+        "description": "I first learned kotlin in my high school IT-development class, where we used it for some simple android apps. About half a year/year later, I had an internship at Nasjonalbiblioteket, Mo i Rana, along with a summer internship later. They used Kotlin as their main language for development there, and I got quite comfortable with the language.",
+        "years": "Half a year",
+        "lastUsed": "Recently"
+    },
+    {
+        "title": "Javascript/Typescript",
+        "category": "Programming Language",
+        "description": "When I, in the start of my developer career, learned to make websites, I quickly discovered Javascript. After working with Javascript for a while, I heard of Typescript. I learned Typescript, and loved the added type safety layer.",
+        "years": "About 2 years",
+        "lastUsed": "Recently"
+    },
+    {
+        "title": "HTML/CSS",
+        "category": "Programming Language (ish)",
+        "description": "A friend of mine introduced me to HTML & CSS to make websites. I found it awesome, and this experience was what lead me to learn actual programming. I still remember the late nights trying to center a div, memories!",
+        "years": "About 3 years",
+        "lastUsed": "Recently"
+    },
+    {
+        "title": "Python",
+        "category": "Programming Language",
+        "description": "As Python was really popular when I first learned to program, along with its ease-of-use, it was my introduction to writing code. While I have learned of the cons of using Python (slow, runtime errors, etc.), I still use python to create quick scripts that don't need much attention to detail.",
+        "years": "About 2-3 years (on & off)",
+        "lastUsed": "Recently"
+    },
+    {
+        "title": "ReactJS / NextJS",
+        "category": "Web UI library",
+        "description": "After making websites for a while, I started experimenting by making more complicated websites. It was at this time I learned that a library/framework can really help speed up development. As React was the most popular library, I learned that, along with NextJS, a React framework.",
+        "years": "About 1 year",
+        "lastUsed": "About 1 year ago"
+    },
+    {
+        "title": "SvelteKit",
+        "category": "Web UI framework",
+        "description": "After about 1 year of making React websites, I wanted to try out other web libraries/frameworks. My current teacher at the time talked about Svelte, so I decided to try it out. I instantly fell in love with Svelte, and that has been my go to web framework for hobby projects since then.",
+        "years": "A few months",
+        "lastUsed": "Recently"
+    },
+    {
+        "title": "C#",
+        "category": "Programming Language",
+        "description": "I first learned C# when I made a few simple games in the Unity game engine. I later used it again, in my high school IT development class, where we made some simple Windows Forms applications.",
+        "years": "Half a year",
+        "lastUsed": "About 1 Year ago"
+    }
+]

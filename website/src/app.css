@@ -1,10 +1,10 @@
 * {
-    font-family: 'Monaco', 'Arial';
+    font-family: 'Verdana', 'Monaco', 'Arial';
 }
 
 body {
     margin: 0;
-    padding: 2rem;
+    padding: min(2rem, 2vw);
     color: #ffffff;
 
     
@@ -15,4 +15,18 @@ body {
 
 hr {
     color: #ffffff;
+}
+
+.Headline {
+    width: fit-content;
+
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    text-align: center;
 }

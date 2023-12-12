@@ -1,5 +1,5 @@
 <script lang="ts">
-    import ContactInfoComponent from "$lib/components/contactInfo/ContactInfoButtonComponent.svelte";
+    import ContactInfoComponent from "$lib/components/contact-info/contact-info-button.svelte";
     import contactInfoList from "$lib/assets/contactInfo.json";
     import { getContactInfoFromJSON } from "$lib/model/contactInfo";
 </script>
@@ -22,7 +22,12 @@
 
 <style>
     h2 {
+        margin: auto;
+        padding: 1rem;
+        margin-bottom: 4rem;
         font-size: 2rem;
+        width: fit-content;
+        border-bottom: solid #ffffff;
     }
 
     #ContactInfoContainer {

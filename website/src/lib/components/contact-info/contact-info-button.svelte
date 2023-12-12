@@ -3,8 +3,8 @@
         ContactClickEvent,
         type ContactInfo,
     } from "$lib/model/contactInfo";
-    import ContactIconComponent from "./ContactIconComponent.svelte";
-    import CopiedAlertComponent from "$lib/components/CopiedAlertComponent.svelte";
+    import ContactIconComponent from "./contact-icon.svelte";
+    import CopiedAlertComponent from "$lib/components/copied-alert.svelte";
 
     export let contactInfo: ContactInfo;
 
@@ -42,10 +42,16 @@
 <style>
     .ContactInfoButtonContainer {
         cursor: pointer;
+        transition: 0.2s color ease-in-out;
+    }
+
+    .ContactInfoButtonContainer:hover {
+        color: #d2d2d2;
     }
 
     .ContactInfoButtonContainer:active {
         cursor: none;
+        color: #c3c3c3;
     }
 
     .isUrl {

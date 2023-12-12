@@ -1,16 +1,25 @@
 <script lang="ts">
-    import ContactInfoComponent from "$lib/components/contactInfo/ContactInfoComponent.svelte";
-    import HomePageBreakComponent from "$lib/components/HomePageBreakComponent.svelte";
-    import SkillsComponent from "$lib/components/skills/SkillsComponent.svelte";
+    import ContactInfo from "$lib/components/contact-info/contact-info.svelte";
+    import Skills from "$lib/components/skills/skills.svelte";
+    import Arrow from "$lib/components/arrow.svelte";
+    import Projects from "$lib/components/projects/projects.svelte";
 </script>
 
 <head>
     <title>Daniel Kalstad - Home</title>
 </head>
 <div id="HomePageContainer">
-    <hr />
+    <h1 title="127.0.0.1" class="Headline">Home</h1>
 
-    <ContactInfoComponent />
+    <Arrow />
 
-    <SkillsComponent />
+    <ContactInfo />
+
+    <Arrow />
+
+    <Projects />
+
+    <Arrow />
+
+    <Skills />
 </div>

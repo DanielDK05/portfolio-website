@@ -1,0 +1,33 @@
+[
+    {
+        "name": "C++ Hangman",
+        "description": "A weekend project I used to try out C++. I haven't written any more C++ than this, and the code probably isn't that good, but I enjoyed the language.",
+        "imgPath": "hangman-cpp.png",
+        "conceptsLearned": [
+            "C++",
+            "CLI applications"
+        ],
+        "url": "https://github.com/DanielDK05/hangman-cpp"
+    },
+    {
+        "name": "IP explorer website",
+        "description": "This is a fun website I built with SvelteKit. It allows the user to input an IP address, and the website can calculate subnets, broadcast/network address, and the like.",
+        "imgPath": "ip-explorer.png",
+        "conceptsLearned": [
+            "bit shifting",
+            "regex"
+        ],
+        "url": "https://github.com/DanielDK05/ip-explorer-website"
+    }, 
+    {
+        "name": "Nasjonalbiblioteket Webscraper",
+        "description": "This was a three week project, which was my task in my summer intenship at Nasjonalbiblioteket, Mo i Rana. I created a Webscraper that fetched about 4000 reports from various organizations that didn't have the resources to send them manually. This saved NB from the labor of writing out the authors, titles, etc. manully.",
+        "imgPath": "default.png",
+        "conceptsLearned": [
+            "Web scraping",
+            "some OOP",
+            "Working in a big codebase."
+        ],
+        "url": null
+    }
+]

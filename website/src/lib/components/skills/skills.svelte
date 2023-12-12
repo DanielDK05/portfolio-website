@@ -1,37 +1,35 @@
 <script lang="ts">
-    let skillsList = [{ title: "Rustlang" }];
+    import skillsList from "$lib/assets/skillsList.json";
+    import SkillCard from "./skill-card.svelte";
 </script>
 
 <div id="SkillsContainer">
-    <h2>My skills in software</h2>
+    <h2>Some of my skills:</h2>
     <ul>
-        <!-- {#each contactInfoList as contactInfo}
+        {#each skillsList as skill}
             <li>
-                <ContactInfoComponent
-                    contactInfo={getContactInfoFromJSON(
-                        JSON.stringify(contactInfo)
-                    )}
-                />
+                <SkillCard {skill} />
             </li>
-        {/each} -->
+        {/each}
     </ul>
 </div>
 
 <style>
-    h2 {
-        font-size: 2rem;
-    }
-
     #SkillsContainer {
         margin: auto;
         margin-top: 8rem;
         margin-bottom: 8rem;
-        width: 90%;
+        width: 70%;
         text-align: center;
     }
 
     #SkillsContainer h2 {
-        margin-bottom: 0;
+        margin: auto;
+        padding: 1rem;
+        margin-bottom: 4rem;
+        font-size: 2rem;
+        width: fit-content;
+        border-bottom: solid #ffffff;
     }
 
     #SkillsContainer ul {
@@ -40,9 +38,15 @@
         list-style: none;
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        flex-shrink: 0;
         justify-content: center;
         align-items: center;
         gap: 4rem;
         margin: auto;
     }
+
+    /* #SkillsContainer ul > li:nth-child(4) {
+        flex-basis: 100%;
+    } */
 </style>
