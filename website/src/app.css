@@ -30,3 +30,12 @@ hr {
     font-size: clamp(2.5rem, 5vw, 4.5rem);
     text-align: center;
 }
+
+.SubHeadline {
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    width: fit-content;
+    border-bottom: solid #ffffff;
+}

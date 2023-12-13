@@ -4,7 +4,7 @@
 </script>
 
 <div class="Projects">
-    <h2>Some of my projects:</h2>
+    <h2 class="SubHeadline">Some of my projects:</h2>
     <ul class="ProjectCards">
         {#each projectsList as project}
             <li><ProjectCard {project} /></li>
@@ -19,15 +19,6 @@
         margin-bottom: 8rem;
         width: 90%;
         text-align: center;
-    }
-
-    .Projects h2 {
-        margin: auto;
-        padding: 1rem;
-        margin-bottom: 4rem;
-        font-size: 2rem;
-        width: fit-content;
-        border-bottom: solid #ffffff;
     }
 
     .ProjectCards {

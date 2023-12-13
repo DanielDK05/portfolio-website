@@ -5,7 +5,7 @@
 </script>
 
 <div id="ContactInfoContainer">
-    <h2>Contact information</h2>
+    <h2 class="SubHeadline">Contact information</h2>
     <p id="ContactInfoSubHeader">(Click to copy/redirect to URL)</p>
     <ul>
         {#each contactInfoList as contactInfo}
@@ -21,15 +21,6 @@
 </div>
 
 <style>
-    h2 {
-        margin: auto;
-        padding: 1rem;
-        margin-bottom: 4rem;
-        font-size: 2rem;
-        width: fit-content;
-        border-bottom: solid #ffffff;
-    }
-
     #ContactInfoContainer {
         margin: auto;
         margin-top: 8rem;

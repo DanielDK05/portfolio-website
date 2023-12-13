@@ -1,25 +1,21 @@
 <script lang="ts">
     import ContactInfo from "$lib/components/contact-info/contact-info.svelte";
     import Skills from "$lib/components/skills/skills.svelte";
-    import Arrow from "$lib/components/arrow.svelte";
     import Projects from "$lib/components/projects/projects.svelte";
+    import AboutMe from "$lib/components/about-me.svelte";
 </script>
 
 <head>
     <title>Daniel Kalstad - Home</title>
 </head>
 <div id="HomePageContainer">
-    <h1 title="127.0.0.1" class="Headline">Home</h1>
-
-    <Arrow />
+    <h1 class="Headline">Personal Portfolio</h1>
 
     <ContactInfo />
 
-    <Arrow />
+    <AboutMe />
 
     <Projects />
-
-    <Arrow />
 
     <Skills />
 </div>

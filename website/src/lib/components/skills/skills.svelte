@@ -4,7 +4,8 @@
 </script>
 
 <div id="SkillsContainer">
-    <h2>Some of my skills:</h2>
+    <h2 class="SubHeadline">Some of my skills:</h2>
+    <p class="SubHeader">(Mobile) tap to read more</p>
     <ul>
         {#each skillsList as skill}
             <li>
@@ -23,15 +24,6 @@
         text-align: center;
     }
 
-    #SkillsContainer h2 {
-        margin: auto;
-        padding: 1rem;
-        margin-bottom: 4rem;
-        font-size: 2rem;
-        width: fit-content;
-        border-bottom: solid #ffffff;
-    }
-
     #SkillsContainer ul {
         padding: 0;
         padding-top: 2rem;
@@ -44,6 +36,11 @@
         align-items: center;
         gap: 4rem;
         margin: auto;
+    }
+
+    .SubHeader {
+        color: #ffffff;
+        opacity: 0.75;
     }
 
     /* #SkillsContainer ul > li:nth-child(4) {
